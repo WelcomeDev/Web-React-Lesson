@@ -1,0 +1,17 @@
+$force-value: 12;
+
+@function force-blackout($color){
+  @return blackout($color, $force-value);
+}
+
+@function force-highlight($color){
+  @return highlight($color, $force-value);
+}
+
+@function highlight($color, $level){
+  @return adjust-color($color, $red: 5 * $level, $green: 5 * $level, $blue: 5 * $level);
+}
+
+@function blackout($color, $level){
+  @return adjust-color($color, $red: -5 * $level, $green: -5 * $level, $blue: -5 * $level);
+}

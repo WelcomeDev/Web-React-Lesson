@@ -1,0 +1,11 @@
+@import "src/styles/colors";
+@import "src/styles/interractions";
+
+.tag {
+  padding: 5px;
+  min-width: 35px;
+  border-radius: 10px;
+  height: fit-content;
+
+  background: force-highlight($foreground-primary);
+}

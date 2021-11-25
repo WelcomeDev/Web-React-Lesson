@@ -1,0 +1,13 @@
+@import "src/styles/colors";
+@import "src/styles/alignment";
+
+.page-content {
+  padding-top: $header-height;
+  padding-bottom: 20px;
+  background: $background-primary;
+  width: 100%;
+  min-height: 100%;
+  height: 1fr;
+
+  flex: 1;
+}

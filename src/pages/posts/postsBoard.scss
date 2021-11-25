@@ -1,0 +1,18 @@
+@import "src/styles/fonts";
+
+.posts-board {
+  padding-top: 20px;
+
+  height: 100%;
+  width: 100%;
+
+  //overflow: auto;
+  &__heading{
+    @extend .text-heading;
+    margin-bottom: 10px;
+  }
+
+  &__spinner{
+    align-self: center;
+  }
+}

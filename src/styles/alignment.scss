@@ -1,0 +1,35 @@
+$header-height: 60px;
+$footer-height: 100px;
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1400px;
+  height: 100%;
+}
+
+@media (max-width: 1800px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 970px) {
+  .container {
+    max-width: 700px;
+    // todo: add burger
+    // minify image
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    max-width: none;
+  }
+}

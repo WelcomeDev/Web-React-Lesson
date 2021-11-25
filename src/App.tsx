@@ -1,13 +1,12 @@
 import React from 'react';
-import './App.css';
+import './styles/dropstyles.scss';
+import './styles/alignment.scss';
+import { MainPage } from './pages/mainPage';
 
 function App() {
-  return (
-    <div className="app">
-      <header className="app-header">
-      </header>
-    </div>
-  );
+    return (
+        <MainPage/>
+    );
 }
 
 export default App;
